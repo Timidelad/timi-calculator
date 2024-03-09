@@ -1,14 +1,35 @@
 body {
     background-color: #EDF7FF;
-    display: grid;
+    display: flex;
     justify-content: center;
     align-content: center;
-    padding: 0;
-    margin: 0;
 }
 
 .div-container {
+    display: grid;
     background-color: white;
     width: 364px;
-    height: 610px;
+    height: 630px;
+    grid-template-columns: 60px 60px 60px 60px;
+    grid-template-rows: 60px 60px 60px 60px;
+    gap: 25px;
+    justify-content: space-around;
+}
+
+.item {
+    display: grid;
+    place-items: center;
+    background-color: #EDF;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.item1 {
+    grid-column: 1 / span 4;
+    grid-row: 1 / span 2;
+}
+
+.item18 {
+    grid-column: 1 / span 4;
 }

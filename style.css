@@ -1,0 +1,14 @@
+body {
+    background-color: #EDF7FF;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.div-container {
+    background-color: white;
+    width: 364px;
+    height: 610px;
+}

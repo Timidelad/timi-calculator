@@ -3,6 +3,7 @@ body {
     display: flex;
     justify-content: center;
     align-content: center;
+    height: 100vh;
 }
 
 .div-container {
@@ -32,4 +33,15 @@ body {
 
 .item18 {
     grid-column: 1 / span 4;
+    background-color: #0092FF;
+    color: white;
+}
+
+.item17, .item13, .item9, .item5, .item1 {
+    background-color: #C4D9E7;
+}
+
+.item2,.item3, .item4, .item6, .item7, .item8, .item10, .item11, .item12, .item14, .item15, .item16 {
+    background-color: #F9FAFE;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }

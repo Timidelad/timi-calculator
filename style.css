@@ -13,7 +13,7 @@ body {
 .div-container {
     display: grid;
     background-color: white;
-    width: 364px;
+    width: 345px;
     height: 630px;
     grid-template-columns: 60px 60px 60px 60px;
     grid-template-rows: 60px 60px 60px 60px;

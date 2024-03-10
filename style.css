@@ -4,6 +4,9 @@ body {
     justify-content: center;
     align-content: center;
     height: 100vh;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .div-container {
@@ -17,7 +20,7 @@ body {
     justify-content: space-around;
 }
 
-.item {
+.center {
     display: grid;
     place-items: center;
     background-color: #EDF;
@@ -27,8 +30,12 @@ body {
 }
 
 .item1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
     grid-column: 1 / span 4;
     grid-row: 1 / span 2;
+    border-radius: 10px;
 }
 
 .item18 {
@@ -44,4 +51,36 @@ body {
 .item2,.item3, .item4, .item6, .item7, .item8, .item10, .item11, .item12, .item14, .item15, .item16 {
     background-color: #F9FAFE;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.result, .calculation {
+    text-align: end;
+    padding: 10px;
+}
+
+.result {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 40px;
+    overflow-x: scroll;
+    scrollbar-width: none;
+}
+
+.calculation {
+    font-size: 23px;
+    overflow-x: scroll;
+    scrollbar-width: none;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.item16 img {
+
+}
+
+.item16, .item14 {
+    background-color: #0092FF;
 }

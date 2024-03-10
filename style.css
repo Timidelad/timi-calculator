@@ -2,7 +2,7 @@ body {
     background-color: #EDF7FF;
     display: flex;
     justify-content: center;
-    align-content: center;
+    align-items: center;
     height: 100vh;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -53,12 +53,12 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.result, .calculation {
+#result, #calculation {
     text-align: end;
     padding: 10px;
 }
 
-.result {
+#result {
     font-family: "Roboto", sans-serif;
     font-weight: 900;
     font-style: normal;
@@ -67,7 +67,7 @@ body {
     scrollbar-width: none;
 }
 
-.calculation {
+#calculation {
     font-size: 23px;
     overflow-x: scroll;
     scrollbar-width: none;
@@ -77,10 +77,58 @@ body {
     display: none;
 }
 
-.item16 img {
-
-}
-
 .item16, .item14 {
     background-color: #0092FF;
+}
+
+.item2:hover {
+    background-color: #0092FF;
+}
+.item3:hover {
+    background-color: #0092FF;
+}
+.item4:hover {
+    background-color: #0092FF;
+}
+.item5:hover {
+    background-color: #0092FF;
+}
+.item6:hover {
+    background-color: #0092FF;
+}
+.item7:hover {
+    background-color: #0092FF;
+}
+.item8:hover {
+    background-color: #0092FF;
+}
+.item9:hover {
+    background-color: #0092FF;
+}
+.item10:hover {
+    background-color: #0092FF;
+}
+.item11:hover {
+    background-color: #0092FF;
+}
+.item12:hover {
+    background-color: #0092FF;
+}
+.item13:hover {
+    background-color: #0092FF;
+}
+.item15:hover {
+    background-color: #0092FF;
+}
+.item17:hover {
+    background-color: #0092FF;
+}
+.item14:hover {
+    background-color: #C4D9E7;
+}
+.item16:hover {
+    background-color: red;
+}
+.item18:hover {
+    background-color: #C4D9E7;
 }

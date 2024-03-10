@@ -12,26 +12,26 @@
 <body>
     <main class="div-container">
         <div class="item item1">
-            <div class="result">4ffufufufufufufufufufufufufufufufufufufufufufufufuf</div>
-            <div class="calculation">2+2</div>
+            <div id="result"></div>
+            <div id="calculation"></div>
         </div>
-        <div class="item center item2">1</div>
-        <div class="item center item3">2</div>
-        <div class="item center item4">3</div>
-        <div class="item center item5">+</div>
-        <div class="item center item6">4</div>
-        <div class="item center item7">5</div>
-        <div class="item center item8">6</div>
-        <div class="item center item9">-</div>
-        <div class="item center item10">7</div>
-        <div class="item center item11">8</div>
-        <div class="item center item12">9</div>
-        <div class="item center item13">x</div>
-        <div class="item center item14">c</div>
-        <div class="item center item15">0</div>
-        <div class="item center item16"><img src="./images/🦆 icon _delete_.png" alt=""></div>
-        <div class="item center item17">/</div>
-        <div class="item center item18">=</div>
+        <div class="item center item2" onclick="clickNumber('1')">1</div>
+        <div class="item center item3" onclick="clickNumber('2')">2</div>
+        <div class="item center item4" onclick="clickNumber('3')">3</div>
+        <div class="item center item5" onclick="clickOperator('+')">+</div>
+        <div class="item center item6" onclick="clickNumber('4')">4</div>
+        <div class="item center item7" onclick="clickNumber('5')">5</div>
+        <div class="item center item8" onclick="clickNumber('6')">6</div>
+        <div class="item center item9" onclick="clickOperator('-')">-</div>
+        <div class="item center item10" onclick="clickNumber('7')">7</div>
+        <div class="item center item11" onclick="clickNumber('8')">8</div>
+        <div class="item center item12" onclick="clickNumber('9')">9</div>
+        <div class="item center item13" onclick="clickOperator('*')">x</div>
+        <div class="item center item14" onclick="deleteResult()">c</div>
+        <div class="item center item15" onclick="clickNumber('0')">0</div>
+        <div class="item center item16" onclick="deleteNumber()"><img src="./images/🦆 icon _delete_.png" alt=""></div>
+        <div class="item center item17" onclick="clickOperator('/')">/</div>
+        <div class="item center item18" onclick="calculate()">=</div>
     </main>
     <script src="./index.js"></script>
 </body>

@@ -14,7 +14,7 @@ body {
     display: grid;
     background-color: white;
     width: 345px;
-    height: 630px;
+    height: 580px;
     grid-template-columns: 60px 60px 60px 60px;
     grid-template-rows: 60px 60px 60px 60px;
     gap: 25px;
@@ -82,55 +82,55 @@ body {
     background-color: #0092FF;
 }
 
-.item2:hover {
+.item2:active {
     background-color: #0092FF;
 }
-.item3:hover {
+.item3:active {
     background-color: #0092FF;
 }
-.item4:hover {
+.item4:active {
     background-color: #0092FF;
 }
-.item5:hover {
+.item5:active {
     background-color: #0092FF;
 }
-.item6:hover {
+.item6:active {
     background-color: #0092FF;
 }
-.item7:hover {
+.item7:active {
     background-color: #0092FF;
 }
-.item8:hover {
+.item8:active {
     background-color: #0092FF;
 }
-.item9:hover {
+.item9:active {
     background-color: #0092FF;
 }
-.item10:hover {
+.item10:active {
     background-color: #0092FF;
 }
-.item11:hover {
+.item11:active {
     background-color: #0092FF;
 }
-.item12:hover {
+.item12:active {
     background-color: #0092FF;
 }
-.item13:hover {
+.item13:active {
     background-color: #0092FF;
 }
-.item15:hover {
+.item15:active {
     background-color: #0092FF;
 }
-.item17:hover {
+.item17:active {
     background-color: #0092FF;
 }
-.item14:hover {
+.item14:active {
     background-color: #C4D9E7;
 }
-.item16:hover {
+.item16:active {
     background-color: red;
 }
-.item18:hover {
+.item18:active {
     background-color: #C4D9E7;
 }
 

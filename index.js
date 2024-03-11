@@ -23,9 +23,15 @@ function deleteResult() {
 function calculate() {
     try {
         value = eval(value);
+        if (!isFinite(value)) {
+            throw new Error("Infinity")
+        }
         document.getElementById('result').textContent = value;
     }   catch(error) {
-        value = eval(value);
-        document.getElementById('result').textContent = 'error'; 
+        if (error instanceof Error && error.message === "Infinity") {
+            document.getElementById('result').textContent = "can't divide by 0";
+        } else {
+            document.getElementById('result').textContent = error.message;
+        } 
     }
 }
